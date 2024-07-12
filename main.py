@@ -8,7 +8,6 @@ def main():
         r = requests.get("https://api.bitflyer.com/v1/getticker?product_code=XRP_JPY")
         data = r.json()
         print(data)
-
         time.sleep(1.0)
 
 
